@@ -23,9 +23,14 @@ function frameIt() {
 
 function pressIt() {
   $("form #typing").on("keydown", (e)=>{
-    console.log(e.which);
     if(e.which===71) {
       alert("You pressed G!");
     }
+  })
+}
+
+function submitIt() {
+  $("form[type]").on("submit", ()=>{
+    alert("Your form is going to be submitted now.");
   })
 }

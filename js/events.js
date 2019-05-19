@@ -13,8 +13,8 @@ function getIt() {
 }
 
 function frameIt() {
-  $("img").on("load", (e)=>{
-    $(e).addClass("tasty");
+  $("img").on("load", ()=>{
+    $("img").addClass("tasty");
     $(".tasty").css('border-color', '#0000FF');
   })
 }

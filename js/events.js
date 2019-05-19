@@ -14,7 +14,7 @@ function getIt() {
 
 function frameIt() {
   $("img").on("load", (e)=>{
-    addClass("tasty");
+    $(this).addClass("tasty");
     $(".tasty").css('border-color', '#0000FF');
   })
 }

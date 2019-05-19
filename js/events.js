@@ -1,12 +1,8 @@
-//define functions here
-
 $(document).ready(function(){
   getIt();
   frameIt();
   pressIt();
   submitIt();
-// call functions here
-
 });
 
 function getIt() {
